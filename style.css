@@ -29,3 +29,20 @@ body{
     margin-bottom: 1rem;
 }
 
+.question{
+    display: flex; /* Permet de positionner p & i  */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #777;
+}
+.reponse{
+    display: none;
+    padding: 3rem;
+    color: #777;
+    background-color: #eee;
+}
+.visible{
+    display: block;
+}
+
